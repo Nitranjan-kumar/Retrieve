@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Untitled-1.css">
+    <title>User Data Storage</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>User Information Form</h1>
+    <form id="userDataForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <button type="button" onclick="storeUserData()">Submit</button>
+    </form>
+
+    <button type="button" onclick="retrieveAndDisplay()">Retrieve Data</button>
+
+    <div id="displayArea"></div>
+</div>
+
+<script src="./Untitled-2.js"></script>
+</body>
+</html>
